@@ -1,0 +1,78 @@
+.app {
+  background-color: black;
+}
+
+.lead-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.lead-form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+
+}
+
+.lead-form label {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.lead-form button {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  background-color: #2d2e83;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.lead-form button:hover {
+  background-color: #4445a0;
+  transform: translateY(-2px);
+}
+
+.lead-form button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.lead-form .status-message {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.lead-form .status-message.success {
+  color: green;
+}
+
+.lead-form .status-message.error {
+  color: red;
+}
+
+.lead-form .error {
+  color: red;
+  font-size: 0.85rem;
+}
+
+.lead-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.lead-form {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 600px;
+}
