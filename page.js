@@ -1,5 +1,5 @@
 // Displays a mock background report based on the lead's name in the URL
-// File path /app/background\[name]/page.js
+// File path /app/background\[name]/page.js ***SAME AS PAGE.JS IN BACKGROUND FOLDER (I couldn't figure out how to add a new folder in place).
 
 'use client';
 import { useParams } from 'next/navigation';
