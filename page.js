@@ -1,4 +1,5 @@
 // Displays a mock background report based on the lead's name in the URL
+// File path /app/background\[name]/page.js
 
 'use client';
 import { useParams } from 'next/navigation';
