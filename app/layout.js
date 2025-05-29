@@ -5,7 +5,7 @@ import { Toaster } from 'react-hot-toast'; // Imports Toaster component from rea
 // Default metadata for the site used by Next.js for SEO and document head
 export const metadata = {
   title: 'SecureLead 🏡🔍',
-  description: 'A simple and free tool used to vet readl estate leads before meeting them in person.',
+  description: 'A simple and free tool used to vet read estate leads before meeting them in person.',
 };
 
 // Root layout component ensures every page inside the /app folder is wrapped with global styling with access to the toast notification system.
