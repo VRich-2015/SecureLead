@@ -1,5 +1,5 @@
-// Displays a mock background report based on the lead's name in the URL
-// File path /app/background\[name]/page.js ***SAME AS PAGE.JS IN BACKGROUND FOLDER (I couldn't figure out how to add a new folder in place).
+// Displays a mock background report based on the lead's name in the URL (All info the same for demo purposes)
+// File path /app/background/[name]/page.js ***SAME AS PAGE.JS IN BACKGROUND FOLDER (I couldn't figure out how to add a new folder in place).
 
 'use client';
 import { useParams } from 'next/navigation';
@@ -7,7 +7,7 @@ import { useParams } from 'next/navigation';
 export default function BackgroundReport() {
   const { name } = useParams(); // extracts the dynamic name from the URL
 
-  // Fake mock data (you can customize this further)
+  // Fake mock data
   const report = {
     employmentHistory: [
           { company: 'Home Depot', role: 'Sales Associate', years: '2018–2020' },
